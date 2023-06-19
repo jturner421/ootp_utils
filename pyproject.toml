@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ootputils"
+version = "0.1.0"
+description = ""
+authors = ["Joel Turner <jturner421@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.97.0"
+uvicorn = "^0.22.0"
+psycopg2-binary = "^2.9.6"
+alembic = "^1.11.1"
+asyncpg = "^0.27.0"
+ipython = "^8.14.0"
+python-dotenv = "^1.0.0"
+sqlalchemy = "^2.0.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
